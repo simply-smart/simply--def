@@ -13,6 +13,18 @@ echo '</pre>';
 
 use SimplySmart\Simply\Config\DatabaseConfig;
 use SimplySmart\Simply\Facades\DatabaseFacade;
+use SimplySmart\Simply\Controllers\DatabaseController;
+use SimplySmart\Simply\Controllers\PDOController;
 
 $dbConfig = DatabaseConfig::fromConfigName('DEFAULT');
 DatabaseFacade::init($dbConfig);
+
+$dbController = new DatabaseController();
+$pdoController = new PDOController();
+
+// Przekazanie połączenia PDO do PDOController
+$dbController->provideConnection($pdoController, $dbConfig);
+
+echo '<pre>';
+var_dump($pdoController);
+echo '</pre>';

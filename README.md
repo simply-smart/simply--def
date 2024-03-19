@@ -26,7 +26,17 @@
 ## Katalog `Interfaces`
 
 
-# Konfiguracja `.env`
+# Konfiguracja
+
+## Zmienne stałe `define`
+
+`PATH_ROOT` 
+
+## Plik `.env`
+
+## Baza danych `DatabaseConfig`
+
+
 
 # Przestrzeń nazw `namespace`
 
@@ -35,6 +45,8 @@
 # Debuger
 
 ## Obsługa błędów `SimplyException`
+
+## Obsługa błędów `DatabaseException`
 
 # Logger
 

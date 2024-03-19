@@ -7,6 +7,7 @@
  * konfigurację poziomu logowania oraz przechowywanie logów w określonym katalogu.
  * Dodatkowo oferuje zintegrowane metody do obsługi błędów i wyjątków.
  *
+ * @package SimplySmart\Simply\Controllers
  */
 
 namespace SimplySmart\Simply\Controllers;

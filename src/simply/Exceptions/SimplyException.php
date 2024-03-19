@@ -1,6 +1,8 @@
 <?php
 /**
  * Definiuje klasę SimplyException, która rozszerza standardową klasę wyjątków w PHP.
+ *
+ * @package SimplySmart\Simply\Exceptions
  */
 
 namespace SimplySmart\Simply\Exceptions;

@@ -32,6 +32,27 @@
 
 `SimplySmart\\Simply\\`
 
+# Debuger
+
+## Obsługa błędów `SimplyException`
+
+# Logger
+
+## Poziomy logowania komunikatów
+
+`monolog/monolog`
+
+```plaintext
+	'DEBUG'     => Logger::DEBUG,
+	'INFO'      => Logger::INFO,
+	'NOTICE'    => Logger::NOTICE,
+	'WARNING'   => Logger::WARNING,
+	'ERROR'     => Logger::ERROR,
+	'CRITICAL'  => Logger::CRITICAL,
+	'ALERT'     => Logger::ALERT,
+	'EMERGENCY' => Logger::EMERGENCY
+```
+
 # Credits
 
 ## `vlucas/phpdotenv`

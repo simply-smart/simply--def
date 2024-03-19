@@ -4,6 +4,9 @@
 
 ```shell
 -/simply-smart
+	|-/app
+	|-/database
+	|-/public_html
 	|-/simply
 	|	|-/Config
 	|	|-/Controllers
@@ -11,6 +14,8 @@
 	|	|-/Facades
 	|	|-/Helpers
 	|	|-/Intefaces
+	|-/storage
+	|-/test
 ```
 
 ## Katalog `Config`
